@@ -5,6 +5,12 @@ feature 'user signs in', %Q{
   I want to sign in
   So that I can regain access to my account
 } do
+
+  # Acceptance Criteria:
+  # [ ] - I can click on the sign in link
+  # [ ] - I am brought to a sign in form
+  # [ ] - Upon submission of the form I am signed in
+
   scenario 'specify valid credentials' do
     user = FactoryGirl.create(:user)
 
